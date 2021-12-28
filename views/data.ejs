@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <%- include('./partials/head.ejs')%>
+<body>
+    <body class="body">
+        <div class="container">
+            <div class="output">
+                <h2>Данные сохранены</h2>
+                <div class="name">Имя: <%= data.name %></div>
+                <div class="email">Email: <%= data.email %></div>
+                <div class="text">Текст: <%= data.text %></div>
+                <a href="/">Назад</a>
+            </div>
+        </div>
+    </body>
+</body>
+</html>

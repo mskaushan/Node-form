@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+.body {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  max-width: 1920px;
+  box-sizing: border-box;
+  font-weight: 300;
+  background-color: #f69a73;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  margin: 100px 0px;
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form .h3-form {
+  width: 80%;
+  color: #707981;
+  font-size: 24px;
+  font-weight: normal;
+}
+.form input {
+  height: 50px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  padding: 0px 10px;
+  border: 0px;
+  font-size: 1.1em;
+  background: #E9EFF6;
+}
+@media screen and (max-width: 575px) {
+  .form input {
+    width: 82%;
+  }
+}
+@media screen and (min-width: 576px) {
+  .form input {
+    width: 72%;
+  }
+}
+.form textarea {
+  margin-bottom: 15px;
+  border-radius: 15px;
+  padding: 10px 10px;
+  border: 0px;
+  font-size: 1.3em;
+  background: #E9EFF6;
+  resize: none;
+}
+@media screen and (max-width: 575px) {
+  .form textarea {
+    width: 82%;
+  }
+}
+@media screen and (min-width: 576px) {
+  .form textarea {
+    width: 72%;
+  }
+}
+.form button {
+  height: 50px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  background-color: #f69a73;
+  color: white;
+  border: 0px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+.form button:active {
+  background-color: #d87d56;
+}
+@media screen and (max-width: 575px) {
+  .form button {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 576px) {
+  .form button {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .form {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .form {
+    width: 400px;
+  }
+}
+
+.output {
+  margin: 100px 0px;
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.output h2 {
+  text-align: center;
+}
+.output div {
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+@media screen and (max-width: 575px) {
+  .output {
+    width: 300px;
+  }
+  .output div {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .output {
+    width: 400px;
+  }
+  .output div {
+    font-size: 24px;
+  }
+}
+.output a {
+  text-decoration: none;
+  border-bottom: 2px dotted black;
+  font-size: 16px;
+  width: max-content;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  color: black;
+  text-align: right;
+}

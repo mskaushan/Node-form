@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <%- include('./partials/head.ejs')%>
+<body class="body">
+    <div class="container">
+        <form class="form" method="post">
+            <h3 class="h3-form">Написать нам</h3>
+            <input type="name" placeholder="Имя" name="name" required>
+            <input type="email" placeholder="Email" name="email" required>
+            <textarea cols="10" rows="5" name="text" placeholder="Сообщение..." ></textarea>
+            <button>Отправить</button>
+        </form>
+    </div>
+</body>
+</html>
